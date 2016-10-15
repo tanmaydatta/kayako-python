@@ -1,5 +1,4 @@
 import json
-import ipdb
 
 class Tweets:
 	def extractRetweetedTweets(self, result):

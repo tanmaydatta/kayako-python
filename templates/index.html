@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Kayako Challenge</title>
+        <link href='//fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css">
+        <link href='./static/style.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="ui container">
+            <div class="ui center aligned grid">
+                <div class="row">
+                    <h1 class="ui header">Kayako Challenge</h1>
+                </div>
+
+                <div class="row">
+                    <div class="ui seven wide column">
+                        <form class="ui icon input">
+                            <input id="q" type="text" placeholder="Search... Example: custserv">
+                            <button id="submit_button" type="submit" class="ui blue button">
+                                <i class="search link icon"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ui center aligned grid cards-container">
+                <div class="nine wide column" id="results">
+                    
+                </div>
+            </div>
+
+            <div class="ui center aligned row" style="margin-top:2%; display: none">
+                <button id="load" class="ui blue button">Load More!</button>
+            </div>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="static/script.js"></script>
+</html>

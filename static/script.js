@@ -1,6 +1,6 @@
 'use strict';
-var URL = "http://localhost:5000/tweet";
-// var URL = "http://slim-tanmay.herokuapp.com/tweet";
+// var URL = "http://localhost:5000/tweet";
+var URL = "http://flask-tanmay.herokuapp.com/tweet";
 var max_id;
 var insertCard = function(username, text, rt) {
     return ' <div class="row card"> \

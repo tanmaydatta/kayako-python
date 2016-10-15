@@ -1,2 +1,2 @@
 from app import app
-app.run(port=8878)
+app.run()
